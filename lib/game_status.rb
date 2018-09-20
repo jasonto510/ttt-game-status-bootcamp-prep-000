@@ -4,7 +4,6 @@ def position_taken?(board, index)
 end
 
 # Define your WIN_COMBINATIONS constant
-def won
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -15,4 +14,3 @@ def won
     [0, 4, 8],
     [2, 4, 6]
   ]
-end
